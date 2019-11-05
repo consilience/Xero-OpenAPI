@@ -11436,10 +11436,10 @@
             "$ref": "#/components/schemas/Overpayment"
           },
           "BatchPaymentID": {
-            "description": "The Xero generated unique identifier for the bank transaction (read-only)",
-            "readOnly": true,
+            "description": "The optional Xero generated unique identifier for the batch this bank transaction may be in",
             "type": "string",
-            "format": "uuid"
+            "format": "uuid",
+            "example": "e1a8543a-729c-49b8-91bf-ac45247decd5"
           },
           "InvoiceNumber": {
             "description": "Number of invoice or credit note you are applying payment to e.g.INV-4003",
