@@ -18577,6 +18577,11 @@ components:
             - SOLE_TRADER
             - SUPERANNUATION_FUND
             - TRUST
+            - CLUBSOCIETY
+            - PRACTICE
+            - PERSON
+            - SOLETRADER
+            - ACCOUNTING_PRACTICE
         BaseCurrency:
           $ref: '#/components/schemas/CurrencyCode'
         CountryCode:
@@ -18667,6 +18672,11 @@ components:
             - SOLE_TRADER
             - SUPERANNUATION_FUND
             - TRUST
+            - CLUBSOCIETY
+            - PRACTICE
+            - PERSON
+            - SOLETRADER
+            - ACCOUNTING_PRACTICE
         ShortCode:
           description: A unique identifier for the organisation. Potential uses.
           type: string
